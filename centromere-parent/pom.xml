@@ -55,6 +55,13 @@
         </repository>
     </distributionManagement>
 
+    <!-- <repositories> -->
+    <!--     <repository> -->
+    <!--         <id>projectlombok.org</id> -->
+    <!--         <url>https://projectlombok.org/edge-releases</url> -->
+    <!--     </repository> -->
+    <!-- </repositories> -->
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -64,6 +71,24 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.4</version>
+    <scope>provided</scope>
+</dependency>
+	    
+	    
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<!-- <dependency> -->
+<!--     <groupId>org.projectlombok</groupId> -->
+<!--     <artifactId>lombok</artifactId> -->
+<!--     <version>1.18.4</version> -->
+<!--     <scope>provided</scope> -->
+<!-- </dependency> -->
+
         </dependencies>
     </dependencyManagement>
 
